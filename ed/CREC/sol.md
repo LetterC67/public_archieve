@@ -11,8 +11,8 @@
 ## Lời giải 🧾
 - Giả sử có 2 điểm `A` và `B` có tọa độ lần lượt là <code>x<sub>1</sub></code>, <code>y<sub>1</sub></code> và <code>x<sub>2</sub></code>, <code>y<sub>2</sub></code>
   + Độ dài đoạn thẳng `AB` là <code>L = √((x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup>)</code>
-  + Trung điểm đoạn thẳng `AB` là điểm <code>M((x<sub>1</sub> + x<sub>2</sub>) / 2, y<sub>1</sub> + y<sub>2</sub>) / 2)</code> 
-- Để thuận tiện cho việc xử lí thì cần lưu giá trị <code>L' = (x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup></code> và điểm <code>M'((x<sub>1</sub> + x<sub>2</sub>), y<sub>1</sub> + y<sub>2</sub>))</code> để không cần xử lí số thực
+  + Trung điểm đoạn thẳng `AB` là điểm <code>M((x<sub>1</sub> + x<sub>2</sub>) / 2, (y<sub>1</sub> + y<sub>2</sub>) / 2)</code> 
+- Để thuận tiện cho việc xử lí thì cần lưu giá trị <code>L' = (x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup></code> và điểm <code>M'(x<sub>1</sub> + x<sub>2</sub>, y<sub>1</sub> + y<sub>2</sub>)</code> để không cần xử lí số thực
 - Đếm đếm thì có thể sắp xếp lại để đếm nhưng có cách nhanh hơn là sử dụng `map` nên chẳng cần sort làm gì cho mệt (⌐■_■)
 - Giả sử có `k` đoạn thẳng cùng trung điểm và cùng độ dài thì sẽ tạo ra được `k * (k - 1) / 2` hình chữ nhật
  
