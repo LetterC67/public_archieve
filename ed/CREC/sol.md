@@ -69,4 +69,4 @@ signed main(){
 }
 ```
 
-> Có thể sử dụng `map<pair<int, pair<int, int>>` để không phải viết lại operator cho key
+> Có thể sử dụng `map<pair<int, pair<int, int>, int>` để không phải viết lại operator cho key
