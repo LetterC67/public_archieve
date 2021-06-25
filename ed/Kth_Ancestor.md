@@ -1,6 +1,8 @@
 # [K-th Ancestor](https://vjudge.net/contest/444351#problem/A)
 
-![Yamai licking](https://github.com/LetterC67/public_archieve/blob/main/misc/pic/856993194704109578.png)
+<p align = "center"> 
+  <img src = "https://github.com/LetterC67/public_archieve/blob/main/misc/pic/856993194704109578.png">
+</p>
 
 ## Nhận xét và một số chú ý ( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)
   - Có thể sử dụng Sqrt Decomposition để leo ngược lên nhưng như vậy sẽ TLE (Độ phức tạp `O(n sqrt n)`)
