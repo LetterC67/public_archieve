@@ -4,6 +4,7 @@
 
 - Khi kiểm tra một một con bò ăn cỏ tại chuồng `u` nào đó thì chỉ ta cần quan tâm đến những cánh đồng trên đường đi ngắn nhất từ đỉnh ruộng `1` đến `u`
 - Khi DFS từ 1 thì những đỉnh ta đã đi qua chính là đường đi này, khi đó cần dùng một cây cối gì đó để biết trên đường đi từ `1` đến `u` có bao nhiêu cánh đồng đã có con bò đến trước
+- Khi DFS đến một đỉnh, hãy đánh dấu vị trí `t` là thời gian có con bò đến cánh đồng đó là 1, tổng các vị trí từ `1` đến `t - 1` chính là đáp án cho con bò đó
 - Khi kết thúc DFS tại một đỉnh thì hãy xóa đỉnh đó ra khỏi cái DS của ta vì đỉnh đó không còn nằm trong con đường của những con bò khác nữa
 
 ### Code
@@ -43,7 +44,7 @@ struct FenwickTree{
     int get(int u){
         int s = 0;
         while(u) s += bit[u], u -= u & -u;
-    return s;
+        return s;
     }
     
     int get(int l, int r){
